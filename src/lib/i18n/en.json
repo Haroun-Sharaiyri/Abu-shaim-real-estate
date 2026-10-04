@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "siteName": "Abu Shahm Real Estate",
+    "siteDescription": "A real estate office in Irbid, helping you buy, sell, and rent apartments, land, and commercial properties",
+    "homeTitle": "Abu Shahm Real Estate | Apartments and Land for Sale and Rent in Irbid",
+    "listingsTitle": "Available Properties | Abu Shahm Real Estate",
+    "listPropertyTitle": "List Your Property | Abu Shahm Real Estate",
+    "requestPropertyTitle": "Request a Property | Abu Shahm Real Estate",
+    "aboutTitle": "About Us | Abu Shahm Real Estate",
+    "contactTitle": "Contact Us | Abu Shahm Real Estate",
+    "neighborhoodsTitle": "Neighborhoods We Cover | Abu Shahm Real Estate",
+    "privacyTitle": "Privacy Policy | Abu Shahm Real Estate"
+  },
+  "nav": {
+    "home": "Home",
+    "listings": "Properties",
+    "listProperty": "List Property",
+    "about": "About",
+    "contact": "Contact Us",
+    "neighborhoods": "Neighborhoods",
+    "requestProperty": "Property Request"
+  },
+  "hero": {
+    "headline": "Find Your Property in Irbid",
+    "subheadline": "We help you buy, sell, and rent with transparency and trust"
+  },
+  "search": {
+    "purpose": "Purpose",
+    "sale": "For Sale",
+    "rent": "For Rent",
+    "type": "Property Type",
+    "apartment": "Apartment",
+    "villa": "Villa",
+    "land": "Land",
+    "commercial": "Commercial",
+    "office": "Office",
+    "shop": "Shop",
+    "neighborhood": "Neighborhood",
+    "allNeighborhoods": "All Neighborhoods",
+    "budget": "Budget",
+    "budgetMax": "Max Budget",
+    "searchButton": "Search",
+    "bedrooms": "Bedrooms",
+    "bedroomsAny": "Any",
+    "size": "Size",
+    "sizeMin": "Min Size",
+    "sizeMax": "Max Size",
+    "priceMin": "Min Price",
+    "priceMax": "Max Price",
+    "sortBy": "Sort By",
+    "newest": "Newest",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "sizeAsc": "Size: Small to Large",
+    "sizeDesc": "Size: Large to Small",
+    "results": "Results",
+    "noResults": "We didn't find any properties matching your search.",
+    "noResultsAction": "Let us know what you are looking for and we will find it for you.",
+    "viewList": "List",
+    "viewMap": "Map",
+    "filters": "Filters",
+    "clearFilters": "Clear Filters",
+    "showMore": "Show More"
+  },
+  "listing": {
+    "featured": "Featured",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "underOffer": "Under Offer",
+    "sold": "Sold",
+    "rented": "Rented",
+    "priceOnRequest": "Price on Request",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "sqm",
+    "floor": "Floor",
+    "buildingAge": "Building Age",
+    "years": "Years",
+    "furnished": "Furnished",
+    "unfurnished": "Unfurnished",
+    "features": "Features",
+    "description": "Description",
+    "location": "Location",
+    "approximateLocation": "Location is approximate for privacy",
+    "referenceCode": "Ref Code",
+    "similar": "Similar Properties",
+    "share": "Share",
+    "shareWhatsApp": "Share via WhatsApp",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "whatsappInquiry": "Hello, I am inquiring about property number",
+    "dunum": "Dunum",
+    "sqm": "sqm",
+    "jod": "JOD",
+    "gallery": "Gallery",
+    "video": "Video",
+    "viewAllPhotos": "View All Photos",
+    "landSize": "Land Size"
+  },
+  "home": {
+    "featuredListings": "Featured Properties",
+    "viewAll": "View All",
+    "services": {
+      "title": "How We Can Help",
+      "sale": {
+        "title": "Buying and Selling",
+        "description": "We help you find the right buyer for your property or the perfect home for you, with fair valuation and effective marketing."
+      },
+      "rent": {
+        "title": "Renting",
+        "description": "Residential apartments and commercial spaces for rent across Irbid's neighborhoods, with clear contracts and fair terms."
+      },
+      "land": {
+        "title": "Land Trading",
+        "description": "Residential and commercial lands in Irbid and surrounding areas. We assist you with verifying all documentation."
+      }
+    },
+    "howWeWork": {
+      "title": "How We Work With You",
+      "step1": {
+        "title": "Search and Select",
+        "description": "Tell us what you are looking for, and we will present suitable options."
+      },
+      "step2": {
+        "title": "Viewing",
+        "description": "We accompany you to view the properties in person."
+      },
+      "step3": {
+        "title": "Negotiation",
+        "description": "We negotiate on your behalf to get the best price."
+      },
+      "step4": {
+        "title": "Signing",
+        "description": "We guide you through the process until contract signing and handover."
+      }
+    },
+    "sellerCta": {
+      "title": "Have a property to sell or rent?",
+      "description": "List your property with us. We handle the marketing to find the right tenant or buyer.",
+      "button": "List Your Property"
+    },
+    "neighborhoods": {
+      "title": "Neighborhoods We Cover",
+      "description": "We know these areas intimately and help you find the best options in them."
+    },
+    "reviews": {
+      "title": "What Our Clients Say",
+      "seeAll": "See all reviews on Google",
+      "leaveReview": "Review us on Google",
+      "basedOn": "Based on",
+      "reviewsCount": "reviews"
+    }
+  },
+  "forms": {
+    "name": "Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "required": "Required",
+    "invalidPhone": "Invalid phone number",
+    "propertyType": "Property Type",
+    "purpose": "Purpose",
+    "sell": "Sell",
+    "rentOut": "Rent Out",
+    "buy": "Buy",
+    "rentIn": "Rent",
+    "neighborhood": "Neighborhood",
+    "approximateSize": "Approximate Size (sqm)",
+    "expectedPrice": "Expected Price (JOD)",
+    "optional": "Optional",
+    "photos": "Property Photos",
+    "bestTimeToCall": "Best time to call",
+    "morning": "Morning (9-12)",
+    "afternoon": "Afternoon (12-15)",
+    "evening": "Evening (15-18)",
+    "anytime": "Anytime",
+    "budget": "Budget (JOD)",
+    "rooms": "Number of Rooms",
+    "timeline": "When do you need it?",
+    "immediately": "Immediately",
+    "withinMonth": "Within a month",
+    "withinThreeMonths": "Within 3 months",
+    "noRush": "No rush",
+    "additionalNotes": "Additional Notes",
+    "uploadPhotos": "Upload Photos",
+    "listPropertyTitle": "List Your Property",
+    "listPropertyDescription": "Register your property details and we will contact you within hours.",
+    "requestPropertyTitle": "Request a Property",
+    "requestPropertyDescription": "Tell us what you need and we will find the right options for you.",
+    "contactTitle": "Contact Us",
+    "contactDescription": "Send us a message and we'll get back to you shortly.",
+    "success": {
+      "title": "Sent Successfully",
+      "description": "We will contact you soon. For a faster response, reach us via WhatsApp.",
+      "whatsappButton": "Contact via WhatsApp"
+    }
+  },
+  "about": {
+    "title": "About Abu Shahm Real Estate",
+    "intro": "A real estate office in Irbid. We operate in the local real estate market and know its ins and outs.",
+    "approach": {
+      "title": "Our Approach",
+      "description": "We believe that buying or renting a property is a major decision requiring time and attention. That's why we guide you through every step, from the initial search to signing the contract, making sure everything is clear."
+    },
+    "localKnowledge": {
+      "title": "Local Knowledge",
+      "description": "We know Irbid's neighborhoods intimately — the real prices, the vibe of each area, and available services. This helps us present options that genuinely suit your needs."
+    },
+    "transparency": {
+      "title": "Transparency and Trust",
+      "description": "We don't exaggerate descriptions or hide details. What you see in the ad is what you get in reality. We believe honesty is the foundation of any successful business relationship."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Irbid, Jordan",
+    "hours": "Working Hours",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "sendMessage": "Send a Message",
+    "findUs": "Our Location"
+  },
+  "footer": {
+    "description": "A real estate office in Irbid, helping you buy, sell, and rent apartments, land, and commercial properties.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "privacy": "Privacy Policy",
+    "rights": "All rights reserved"
+  },
+  "topBar": {
+    "hours": "Sat-Thu: 9:00 - 18:00",
+    "call": "Call"
+  },
+  "mobileBar": {
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "cookie": {
+    "message": "We use cookies to improve your experience.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "learnMore": "Learn More"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "This page doesn't exist. Search for a property or contact us.",
+    "searchPlaceholder": "Search for a property...",
+    "goHome": "Back to Home",
+    "contactUs": "Contact us via WhatsApp"
+  },
+  "common": {
+    "language": "العربية",
+    "languageCode": "ar",
+    "currency": "JOD",
+    "sqm": "sqm",
+    "dunum": "Dunum",
+    "viewDetails": "View Details",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "An error occurred, please try again."
+  }
+}

@@ -1,26 +1,183 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ============================================
+   Abu Shahm Real Estate — Global Styles
+   ============================================ */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Brand Colors */
+  --color-navy: #0A2E5C;
+  --color-blue: #1560BD;
+  --color-cyan-dark: #3CCDE8;
+  --color-cyan-light: #14B4D2;
+  --color-ground: #F6FAFD;
+  --color-muted: #476985;
+
+  /* Font Families */
+  --font-display: "Alexandria", sans-serif;
+  --font-body: "Readex Pro", sans-serif;
+
+  /* Consistent spacing */
+  --spacing-section: 5rem;
+  --spacing-section-sm: 3rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================
+   Base Styles
+   ============================================ */
+
+:root {
+  --background: #F6FAFD;
+  --foreground: #0A2E5C;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+}
+
+/* ============================================
+   Typography
+   ============================================ */
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+p {
+  max-width: 70ch;
+  line-height: 1.8;
+}
+
+/* ============================================
+   RTL / LTR Utilities
+   ============================================ */
+
+/* Phone numbers and prices should always render LTR */
+.ltr-num {
+  direction: ltr;
+  unicode-bidi: embed;
+  display: inline-block;
+}
+
+/* ============================================
+   Scroll Animations (respects prefers-reduced-motion)
+   ============================================ */
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-fade-up {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 300ms ease-out, transform 300ms ease-out;
+  }
+
+  .animate-fade-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ============================================
+   Focus States
+   ============================================ */
+
+:focus-visible {
+  outline: 2px solid var(--color-cyan-light);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ============================================
+   Scrollbar
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-ground);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-navy);
+}
+
+/* ============================================
+   Diamond Motif
+   ============================================ */
+
+.diamond {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-cyan-light);
+  transform: rotate(45deg);
+  border-radius: 1.5px;
+}
+
+.diamond-sm {
+  width: 6px;
+  height: 6px;
+}
+
+.diamond-lg {
+  width: 12px;
+  height: 12px;
+}
+
+/* Cyan rule divider */
+.cyan-rule {
+  height: 3px;
+  background-color: var(--color-cyan-light);
+  border: none;
+  border-radius: 2px;
+}
+
+.cyan-rule-dark {
+  background-color: var(--color-cyan-dark);
+}
+
+/* ============================================
+   Image Overlays
+   ============================================ */
+
+.navy-overlay {
+  position: relative;
+}
+
+.navy-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 46, 92, 0.6),
+    rgba(10, 46, 92, 0.85)
+  );
+  pointer-events: none;
+}
+
+.navy-overlay > * {
+  position: relative;
+  z-index: 1;
 }
